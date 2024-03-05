@@ -46,36 +46,6 @@
             </div>
             <hr style="width: 40vw; margin-bottom: 30px; margin-top: 20px;" />
         </div>
-        <script type="text/javascript" src="app.js"></script>
-        <script type="text/javascript">
-            let theme = 'light';
-            let root = document.documentElement;
-            let icon = document.getElementById('icon');
-            document.getElementById('theme').addEventListener('click', () => {
-                if (theme === 'light') {
-                    root.style.setProperty('--primary-light', '#000');
-                    root.style.setProperty('--primary-dark', '#eee');
-                    icon.classList.remove('fa-moon');
-                    icon.classList.add('fa-sun');
-                    theme = 'light';
-                } else {
-                    root.style.setProperty('--primary-light', '#eee');
-                    root.style.setProperty('--primary-dark', '#000');
-                    icon.classList.add('fa-moon');
-                    icon.classList.remove('fa-sun');
-                    theme = 'dark';
-                }
-            });
-            $('#input').numberedtextarea({
-                // font color for line numbers
-                color: '#aaa',
-
-                // border color
-                borderColor: '#aaa',
-
-                // if true Tab key creates indentation
-                allowTabChar: false,
-            });
-        </script>
+        <script type="text/javascript" src="app.js"></script>  
     </body>
 </html>
