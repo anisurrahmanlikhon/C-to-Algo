@@ -52,18 +52,18 @@
             let root = document.documentElement;
             let icon = document.getElementById('icon');
             document.getElementById('theme').addEventListener('click', () => {
-                if (theme === 'dark') {
+                if (theme === 'light') {
                     root.style.setProperty('--primary-dark', '#eee');
                     root.style.setProperty('--primary-light', '#000');
                     icon.classList.remove('fa-moon');
                     icon.classList.add('fa-sun');
-                    theme = 'light';
+                    theme = 'dark';
                 } else {
                     root.style.setProperty('--primary-dark', '#000');
                     root.style.setProperty('--primary-light', '#eee');
                     icon.classList.add('fa-moon');
                     icon.classList.remove('fa-sun');
-                    theme = 'dark';
+                    theme = 'light';
                 }
             });
             $('#input').numberedtextarea({
