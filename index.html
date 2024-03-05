@@ -53,16 +53,16 @@
             let icon = document.getElementById('icon');
             document.getElementById('theme').addEventListener('click', () => {
                 if (theme === 'light') {
-                    root.style.setProperty('--primary-dark', '#eee');
                     root.style.setProperty('--primary-light', '#000');
-                    icon.classList.remove('fa-moon');
-                    icon.classList.add('fa-sun');
+                    root.style.setProperty('--primary-dark', '#eee');
+                    icon.classList.remove('fa-sun');
+                    icon.classList.add('fa-moon');
                     theme = 'dark';
                 } else {
-                    root.style.setProperty('--primary-dark', '#000');
                     root.style.setProperty('--primary-light', '#eee');
-                    icon.classList.add('fa-moon');
-                    icon.classList.remove('fa-sun');
+                    root.style.setProperty('--primary-dark', '#000');
+                    icon.classList.add('fa-sun');
+                    icon.classList.remove('fa-moon');
                     theme = 'light';
                 }
             });
