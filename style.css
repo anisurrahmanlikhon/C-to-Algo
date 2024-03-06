@@ -81,7 +81,7 @@
     border-radius: 7px;
     background-color: black;
     color: white;
-    transition: background-color 0.2s ease, color 0.1s ease;
+    transition: white;
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
