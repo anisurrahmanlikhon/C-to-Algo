@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 
 :root {
-    --primary-dark: #000;
-    --primary-light: #eee;
+   
 }
 
 * {
@@ -78,10 +77,10 @@
     margin: 10px;
     width: 100px;
     height: 40px;
-    border: 2px solid var(--primary-light);
+    border: 1px;
     border-radius: 7px;
-    background-color: var(--primary-light);
-    color: var(--primary-dark);
+    background-color: black;
+    color: white;
     transition: background-color 0.2s ease, color 0.1s ease;
     cursor: pointer;
     font-size: 18px;
